@@ -13,13 +13,12 @@ This Python GUI application allows users to upload `.bin` firmware files to STM3
 ## 📁 Project Structure
 
 - `guiAPP.py`: Main GUI application logic
-- `main.py`: Entry point for launching the GUI
 - `README.md`: Project documentation
 
 ## 🧪 How to Use
 
 1. Connect your STM32 device via USB or serial adapter.
-2. Launch the GUI by running `main.py`.
+2. Launch the GUI by running `guiAPP.py`.
 3. Select the `.bin` file you want to upload.
 4. Choose the correct COM port and configure serial settings.
 5. Click **SEND** to transmit the firmware.
