@@ -6,7 +6,7 @@ This Python GUI application allows users to upload `.bin` firmware files to STM3
 
 - Upload `.bin` files to STM32 flash memory via UART
 - Select COM port and configure serial parameters (baud rate, parity, stop bits, flow control)
-- Automatic reception feedback printed in GUI
+- Automatic feedback printed in GUI window
 - Simple and intuitive interface for testing and deployment
 - Compatible with STM32 bootloader IAP protocol
 
@@ -27,10 +27,10 @@ This Python GUI application allows users to upload `.bin` firmware files to STM3
 
 ## 🔗 Related Repositories
 
-- [STM32F446-Bootloader](https://github.com/Vojtese/STM32F446-Bootloader): Bootloader that receives and flashes the `.bin` file
-- [STM32F446-APP1](https://github.com/Vojtese/STM32F446-APP1): Primary application slot
-- [STM32F446-APP2](https://github.com/Vojtese/STM32F446-APP2): Secondary application slot
-- [STM32F446-SensorTestAndHW](https://github.com/Vojtese/STM32F446-SensorTestAndHW): Sensor and hardware interface testing
+- [STM32F446-Bootloader](https://github.com/Vojtese/STM32F446-Bootloader)
+- [STM32F446-APP1](https://github.com/Vojtese/STM32F446-APP1)
+- [STM32F446-APP2](https://github.com/Vojtese/STM32F446-APP2)
+- [STM32F446-SensorTestAndHW](https://github.com/Vojtese/STM32F446-SensorTestAndHW)
 
 ## 🛠️ Requirements
 
