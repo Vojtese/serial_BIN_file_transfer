@@ -19,9 +19,7 @@ This Python GUI application uploads `.bin` firmware files to the STM32F446 bootl
 
 ## 📁 Project Structure
 
-- `guiAPP.py`: GUI logic and packet handling
-- `main.py`: Entry point
-- `crc.py`: CRC calculator
+- `guiAPP.py`: GUI logic and packet handling, Entry point and CRC calculator
 - `README.md`: Documentation
 
 ## 🔗 Related Projects
