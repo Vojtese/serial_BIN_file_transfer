@@ -1,41 +1,25 @@
 # serial_BIN_file_transfer
 
-This Python GUI application allows users to upload `.bin` firmware files to STM32 microcontrollers over a serial (UART) connection. It is designed to work seamlessly with the [STM32F446 Bootloader](https://github.com/Vojtese/STM32F446-Bootloader), enabling easy firmware updates using a graphical interface.
+This Python GUI application uploads `.bin` firmware files to the STM32F446 bootloader via UART. It is used for in-field firmware updates of the rainwater signal acquisition unit.
 
-## 🖥️ Features
+## 🚀 Features
 
-- Upload `.bin` files to STM32 flash memory via UART
-- Select COM port and configure serial parameters (baud rate, parity, stop bits, flow control)
-- Automatic feedback printed in GUI window
-- Simple and intuitive interface for testing and deployment
-- Compatible with STM32 bootloader IAP protocol
+- PyQt5 GUI for user interaction
+- Packetization with CRC and headers
+- UART transmission with retry logic
+- Progress bar and feedback window
+- Compatible with bootloader and RS485 test firmware
 
 ## 📁 Project Structure
 
-- `guiAPP.py`: Main GUI application logic
-- `README.md`: Project documentation
+- `guiAPP.py`: GUI logic and packet handling
+- `main.py`: Entry point
+- `README.md`: Documentation
 
-## 🧪 How to Use
-
-1. Connect your STM32 device via USB or serial adapter.
-2. Launch the GUI by running `guiAPP.py`.
-3. Select the `.bin` file you want to upload.
-4. Choose the correct COM port and configure serial settings.
-5. Click **SEND** to transmit the firmware.
-6. Monitor the feedback window for transmission status and response.
-
-## 🔗 Related Repositories
+## 🔗 Related Projects
 
 - [STM32F446-Bootloader](https://github.com/Vojtese/STM32F446-Bootloader)
-- [STM32F446-APP1](https://github.com/Vojtese/STM32F446-APP1)
-- [STM32F446-APP2](https://github.com/Vojtese/STM32F446-APP2)
-- [STM32F446-SensorTestAndHW](https://github.com/Vojtese/STM32F446-SensorTestAndHW)
-
-## 🛠️ Requirements
-
-- Python 3.x
-- `pyserial` library (`pip install pyserial`)
-- Compatible STM32 device with bootloader flashed
+- [STM32F446-uploadRS485Test](https://github.com/Vojtese/STM32F446-uploadRS485Test)
 
 ## 📜 License
 
